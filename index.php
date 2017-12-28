@@ -19,9 +19,17 @@ This page is also small - devices friendly for easy view and scrolling.
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <style>
+  body{
+	  
+	  background: radial-gradient(farthest-side at 60% , #c3b9b9, #c3c3bb, #e2cdcd);
+  }
+  </style>
+  
 </head>
 
-<body>
+<body >
 
 
 
