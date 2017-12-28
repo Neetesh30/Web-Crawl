@@ -66,7 +66,8 @@ function getFeed($feed_url) {
 			<img src="<?php echo $media_url;?>" class="img-rounded   " alt="Image Not Found "onerror="this.src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTL07f7Q0HLCf_4RzECzXG8RFqrbNFZx0IkToT3nHO9mDy_IMtBQ'" width="304" height="236"> 
 			
 				<!-- identify child xml tag for image title -->
-				<h3> <?php echo"<a target='_blank' href='$entry->link' title='$entry->title'>" . $entry->title . "</a>"	;?></h3>
+			
+				<h3> <?php echo"<a target='_blank' href='$entry->link' title='$entry->title'>" .   substr($entry->title,0,50)  . "....</a>"	;?></h3>
 	</div>
 		<?php
 		// End The ForEach Loop if it reaches count of 25.
